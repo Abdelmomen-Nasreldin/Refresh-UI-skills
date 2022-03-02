@@ -1,0 +1,69 @@
+.features {
+  background: #e5e5e5;
+  padding: 30px;
+}
+
+.features .container h2 {
+  text-align: center;
+}
+
+.features .container .main__features {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(350px, 410px))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(350px, 410px));
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.features .container .main__features .oneFeature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px;
+  background: #f5f5f5;
+  border: 1px solid #ACB9CC;
+  border-radius: 10px;
+  height: 309px;
+}
+
+.features .container .main__features .oneFeature svg {
+  height: 52.5px;
+  width: 52.5px;
+  border-radius: 0px;
+}
+
+.features .container .main__features .oneFeature h3 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 30px;
+}
+
+.features .container .main__features .oneFeature p {
+  font-family: Amazon Ember;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=features.css.map */

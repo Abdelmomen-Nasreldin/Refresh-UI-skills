@@ -1,0 +1,55 @@
+.features {
+  background: #e5e5e5;
+  padding: 30px;
+  .container {
+    h2 {
+        text-align: center;
+    }
+    .main__features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 410px));
+        gap: 20px;
+        justify-content: center;
+      .oneFeature {
+        // display: grid;
+        // place-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        padding: 15px;
+        background: #f5f5f5;
+        border: 1px solid #ACB9CC;
+        border-radius: 10px;
+        height: 309px;
+
+        svg {
+          height: 52.5px;
+          width: 52.5px;
+          border-radius: 0px;
+        }
+        h3 {
+            
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: center;
+margin-bottom: 16px;
+margin-top:30px;
+        }
+        p {
+            font-family: Amazon Ember;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: center;
+margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+@import url("https://cdn.jsdelivr.net/gh/GoCloudHub/font-amazon-ember/fonts/amazonember/amazonember.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+body {
+  font-family: "Amazon Ember", Arial, monospace;
+}
+
+select:focus-visible {
+  outline: none;
+}
+
+.main__nav {
+  background: #f3f4f6;
+}
+
+.main__nav .container .navbar-brand {
+  position: relative;
+}
+
+.main__nav .container .navbar-brand:after {
+  content: "";
+  height: 30px;
+  width: 1px;
+  position: absolute;
+  top: 50%;
+  background: #abafc7;
+  border: 1px solid #abafc6;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.main__nav .container .all-links ul.pages-links li a {
+  margin: 0 5px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.main__nav .container .all-links ul.pages-links li a:focus {
+  font-weight: bolder !important;
+}
+
+.main__nav .container div.social-links ul {
+  margin: 0 22px;
+}
+
+.main__nav .container div.social-links ul li {
+  margin: 0 10px;
+}
+
+.main__nav .container div.social-links button {
+  background: #c9e6b0;
+  -webkit-box-shadow: -10px 30px 50px 0px #30690040;
+          box-shadow: -10px 30px 50px 0px #30690040;
+  height: 52px;
+  width: 163px;
+  border-radius: 10px;
+  position: relative;
+  margin: 0 30px;
+  border: none;
+}
+
+.main__nav .container div.social-links button:before {
+  content: "";
+  height: 30px;
+  width: 1px;
+  position: absolute;
+  left: -38px;
+  background: #abafc7;
+}
+
+.main__nav .container div.social-links .country-select {
+  width: 66px;
+}
+
+.main__nav .container div.social-links .country-select select {
+  background: transparent;
+  border: none;
+  width: 100%;
+}
+
+@media (max-width: 1199.98px) {
+  .main__nav .container div.social-links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main__nav .container div.social-links ul {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .main__nav .container div.social-links button:before,
+  .main__nav .container .navbar-brand:after {
+    display: none;
+  }
+}
+/*# sourceMappingURL=header.css.map */
