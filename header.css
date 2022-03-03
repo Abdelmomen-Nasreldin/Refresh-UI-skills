@@ -22,8 +22,9 @@ select:focus-visible {
   width: 1px;
   position: absolute;
   top: 50%;
+  right: 0;
   background: #abafc7;
-  border: 1px solid #abafc6;
+  border: 0.5px solid #abafc6;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -65,6 +66,7 @@ select:focus-visible {
   position: absolute;
   left: -38px;
   background: #abafc7;
+  border: 0.5px solid #abafc6;
 }
 
 .main__nav .container div.social-links .country-select {
