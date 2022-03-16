@@ -1,0 +1,129 @@
+.hot-deals {
+  background: #E5E5E5;
+}
+
+.hot-deals .container {
+  padding: 20px;
+}
+
+.hot-deals .container .owl-theme .owlCard {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.hot-deals .container .owl-theme .owlCard img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.hot-deals .container .owl-theme .owlCard .card-body {
+  padding: 0;
+}
+
+.hot-deals .container .owl-theme .owlCard .card-body .card-text {
+  font-family: "Amazon Ember";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #474a4d;
+}
+
+.hot-deals .container .owl-theme .owlCard .card-body .card-price-discount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hot-deals .container .owl-theme .owlCard .card-body .card-price-discount .card-price span {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.hot-deals .container .owl-theme .owlCard .card-body .card-price-discount .card-price span:first-of-type {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.hot-deals .container .owl-theme .owlCard .card-body .card-price-discount .card-discount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hot-deals .container .owl-theme .owlCard .card-body .card-price-discount .card-discount span {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.hot-deals .container .owl-theme .owlCard .card-body .card-price-discount .card-discount span:first-of-type {
+  font-weight: bold;
+}
+
+.hot-deals .container .owl-theme .owlCard .card-body .card-price-discount span {
+  display: block;
+  font-family: "Amazon Ember";
+  font-style: normal;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #18191a;
+}
+
+.hot-deals .container .owl-theme .owlCard .card-body button {
+  width: 100%;
+  background: #50af00;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  border: none;
+}
+
+.hot-deals .owl-prev {
+  left: -50px;
+}
+
+.hot-deals .owl-next {
+  right: -50px;
+}
+
+.hot-deals .owl-prev,
+.hot-deals .owl-next {
+  position: absolute;
+  bottom: 50%;
+}
+
+.hot-deals .owl-prev span,
+.hot-deals .owl-next span {
+  font-size: 80px;
+  color: #C8CCC4;
+}
+
+.hot-deals .owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent !important;
+}
+/*# sourceMappingURL=hot-deals.css.map */

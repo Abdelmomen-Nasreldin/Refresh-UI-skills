@@ -10,6 +10,10 @@ select:focus-visible {
 
 .main__nav {
   background: #f3f4f6;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  border-bottom: 1px solid #2e52b2;
 }
 
 .main__nav .container .navbar-brand {

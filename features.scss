@@ -1,3 +1,4 @@
+
 .features {
   background: #e5e5e5;
   padding: 30px;
@@ -7,7 +8,7 @@
     }
     .main__features {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 410px));
+        grid-template-columns: repeat(auto-fit, minmax(310px, 410px));
         gap: 16px;
         justify-content: center;
       .oneFeature {

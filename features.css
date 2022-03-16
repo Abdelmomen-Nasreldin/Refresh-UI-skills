@@ -10,8 +10,8 @@
 .features .container .main__features {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(350px, 410px))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(350px, 410px));
+  -ms-grid-columns: (minmax(310px, 410px))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(310px, 410px));
   gap: 16px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;

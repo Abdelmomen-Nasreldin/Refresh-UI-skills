@@ -1,0 +1,30 @@
+// background: #50AF00;
+
+.welcome {
+    background: #ebebeb;
+    position: relative;
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        text-align:center;
+        p{
+            
+    max-width: 700px;
+        }
+        a{
+            color: var(--main-color)
+        }
+        span{
+            color: var(--main-color)
+        }
+    }
+    .absoluteImg {
+        position: absolute;
+        right: 20px;
+        bottom:0;
+        max-width: 350px
+    }
+}

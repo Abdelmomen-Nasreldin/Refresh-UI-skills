@@ -1,0 +1,141 @@
+// @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+.hot-deals {
+    background: #E5E5E5;
+    .container {
+        padding: 20px;
+        .owl-theme {
+            .owlCard {
+                // width: 350px;
+                padding: 10px;
+                border-radius: 8px;
+                img {
+                    width: 100%;
+                    height: 200px;
+                    object-fit: cover;
+                    border-radius: 10px;
+                }
+                .card-body {
+                    padding: 0;
+                    .card-text {
+                        font-family: "Amazon Ember";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        /* or 150% */
+
+                        display: flex;
+                        align-items: center;
+
+                        color: #474a4d;
+                    }
+                    .card-price-discount {
+                        display: flex;
+                        justify-content: space-between;
+                        .card-price {
+                            span {
+                                font-weight: 500;
+                                font-size: 13px;
+                            }
+                            span:first-of-type {
+                                font-weight: bold;
+                                font-size: 13px;
+                            }
+                            // span:nth-last-of-type(2) {
+                            // }
+                        }
+                        .card-discount {
+                            display: flex;
+                            align-items: flex-end;
+                            flex-direction: column;
+                            span {
+                                font-weight: 500;
+                                font-size: 13px;
+                            }
+                            span:first-of-type {
+                                font-weight: bold;
+                            }
+                            // span:nth-last-of-type(2) {
+                            // }
+                        }
+                        span {
+                            display: block;
+                            font-family: "Amazon Ember";
+                            font-style: normal;
+                            // font-weight: 500;
+                            // font-size: 16px;
+                            line-height: 19px;
+                            display: flex;
+                            align-items: center;
+
+                            color: #18191a;
+                        }
+                    }
+                    button {
+                        width: 100%;
+                        background: #50af00;
+                        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+                        border-radius: 10px;
+                        border: none;
+                    
+                    }
+                }
+            }
+        }
+    }
+    .owl-prev {
+        left: -50px;
+    }
+    .owl-next {
+        right: -50px;
+    }
+    .owl-prev,
+    .owl-next {
+        position: absolute;
+        bottom: 50%;
+        // background: #C8CCC4;
+        // transform: translateY(50%)
+    }
+    .owl-prev span,
+    .owl-next span {
+        font-size: 80px;
+        color: #C8CCC4;
+// transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+    .owl-theme .owl-nav [class*="owl-"]:hover {
+        background: transparent !important;
+        // position: relative;
+        
+    }
+}
+// .owl-prev {
+//     left: -30px;
+// }
+// .owl-next {
+//     right: -30px;
+// }
+// .owl-prev,
+// .owl-next {
+//     position: absolute;
+//     top: 90px;
+// }
+// .owl-prev span,
+// .owl-next span {
+//     font-size: 80px;
+//     color: black;
+// }
+// @media (min-width: 1024px) and (max-width: 1279.98px) {
+//     .hot-deals .container .owl-theme .owlCard{
+//         width: 310px;
+//     }
+// }
+// @media (min-width: 576px) and (max-width: 1199.98px) {
+//     .hot-deals .container .owl-theme .owlCard {
+//         width: 350px;
+//     }
+// }
+// @media (max-width: 575.98px) {
+//     .hot-deals .container .owl-theme .owlCard {
+//         width: 310px;
+//     }
+// }

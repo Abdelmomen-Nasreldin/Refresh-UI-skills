@@ -1,0 +1,34 @@
+footer{
+    .container{
+        .about{}
+        .links{
+            .ulList{
+                ul{
+                    li{
+                        a{
+                            color: #767B80;
+                            text-decoration: none;
+
+                        }
+                    }
+                }
+            }
+        }
+        .social-subscribe{
+            .social{
+                span{}
+                ul{
+                    li{
+                        margin: 0 5px;
+                        a{
+                            i{
+
+                            }
+                        }
+                    }
+                }
+            }
+            .subscribe{}
+        }
+    }
+}
