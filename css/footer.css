@@ -1,3 +1,13 @@
+footer {
+  background: #F3F4F6;
+  color: var(--text-color);
+}
+
+footer h2, footer h3, footer h6 {
+  color: #000;
+  font-weight: 500;
+}
+
 footer .container .links .ulList ul li a {
   color: #767B80;
   text-decoration: none;
@@ -5,5 +15,58 @@ footer .container .links .ulList ul li a {
 
 footer .container .social-subscribe .social ul li {
   margin: 0 5px;
+}
+
+footer .container .social-subscribe .subscribe div.subscribe-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+
+footer .container .social-subscribe .subscribe div.subscribe-input form {
+  margin: 0 10px;
+  -webkit-box-shadow: 0px 50px 60px rgba(36, 79, 0, 0.2);
+          box-shadow: 0px 50px 60px rgba(36, 79, 0, 0.2);
+  width: 100%;
+}
+
+footer .container .social-subscribe .subscribe div.subscribe-input form .form__div input {
+  height: 80px;
+  background: #ffffff;
+}
+
+footer .container .social-subscribe .subscribe div.subscribe-input form .form__div .search__icon {
+  background: var(--main-color);
+  height: 80px;
+  left: 314px;
+  top: 0px;
+  border-radius: 0px 4px 4px 0px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+footer .container .social-subscribe .subscribe div.subscribe-input form .form__div .search__icon button {
+  width: 100%;
+  height: 100%;
+}
+
+footer .container .social-subscribe .subscribe div.subscribe-input form .form__div .search__icon button i {
+  color: #efe6f7;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  footer .container .social-subscribe .subscribe div.subscribe-input form {
+    width: 65%;
+  }
 }
 /*# sourceMappingURL=footer.css.map */

@@ -1,8 +1,15 @@
 footer{
+    background: #F3F4F6;
+    color: var(--text-color);
+    h2,h3,h6{
+        color: #000;
+        font-weight: 500;
+    }
     .container{
         .about{}
         .links{
             .ulList{
+                
                 ul{
                     li{
                         a{
@@ -28,7 +35,58 @@ footer{
                     }
                 }
             }
-            .subscribe{}
+            .subscribe{
+                div.subscribe-input {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    // margin: 34px 0 14px;
+                    position: relative;
+                    // img {
+                    //     position: absolute;
+                    //     left: -115px;
+                    //     bottom: 62px;
+                    //     width: 120px;
+                    // }
+                    form {
+                        margin: 0 10px;
+                        box-shadow: 0px 50px 60px rgba(36, 79, 0, 0.2);
+                        width: 100%;
+                        
+                        .form__div {
+                            input {
+                                height: 80px;
+                                // border-radius: 10px 0 0 10px;
+                                background: #ffffff;
+                            }
+                            .search__icon {
+                                background: var(--main-color);
+                                height: 80px;
+                                // width: 74px;
+                                left: 314px;
+                                top: 0px;
+        
+                                border-radius: 0px 4px 4px 0px;
+                                display: grid;
+                                place-items: center;
+                                button {
+                                    width: 100%;
+                                    height: 100%;
+                                    i {
+                                        color: #efe6f7;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+              footer .container .social-subscribe .subscribe  div.subscribe-input form{
+                  width: 65%
+              }             
 }
