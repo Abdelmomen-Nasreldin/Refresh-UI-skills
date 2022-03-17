@@ -2,10 +2,10 @@ $(function() {
 
 	if ( $('.owl-carousel-deals').length > 0 ) {
         $('.owl-carousel-deals').owlCarousel({
-          //  center:false,
-            
-            // smartSpeed: 500,
-            // autoplay: true,
+            autoplayHoverPause: true,
+            autoplaySpeed: 500,
+            smartSpeed: 500,
+            autoplay: true,
             items:4,
             nav: true,
             dots: true,
@@ -59,17 +59,17 @@ $(function() {
                 },
                 768:{
                     margin: 20,
-                    nav: true,
+                    nav: false,
                     items: 2
                 },
                 1000:{  
                     margin: 20,
-                  nav: true,
+                  nav: false,
                   items: 3
                 },
                 1280:{
                     margin: 20,
-                    nav: true,
+                    nav: false,
                     items: 3
                 },
                 1500:{

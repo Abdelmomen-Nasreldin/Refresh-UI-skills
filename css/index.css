@@ -1,3 +1,11 @@
+@import url("https://cdn.jsdelivr.net/gh/GoCloudHub/font-amazon-ember/fonts/amazonember/amazonember.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+body {
+    font-family: "Amazon Ember", Arial, monospace;
+}
+select:focus-visible {
+    outline: none;
+}
 :root{
     --main-color: #50AF00;
     --text-color: #767B80;

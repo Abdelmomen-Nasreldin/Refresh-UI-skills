@@ -14,7 +14,11 @@ footer .container .links .ulList ul li a {
 }
 
 footer .container .social-subscribe .social ul li {
-  margin: 0 5px;
+  margin: 0 10px;
+}
+
+footer .container .social-subscribe .social ul li a i {
+  color: #081420;
 }
 
 footer .container .social-subscribe .subscribe div.subscribe-input {

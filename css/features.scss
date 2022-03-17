@@ -1,0 +1,49 @@
+.features {
+    background: #e5e5e5;
+    padding: 30px;
+    .container {
+        h2 {
+            text-align: center;
+        }
+        .main__features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(310px, 410px));
+            gap: 16px;
+            text-align: center;
+            justify-content: center;
+            .oneFeature {
+                // display: grid;
+                // place-items: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 15px;
+                background: #f5f5f5;
+                border: 1px solid #acb9cc;
+                border-radius: 10px;
+                height: 309px;
+
+                svg {
+                    height: 52.5px;
+                    width: 52.5px;
+                    border-radius: 0px;
+                }
+                h3 {
+                    font-size: 25px;
+                    line-height: 30px;
+                    margin-bottom: 16px;
+                    margin-top: 30px;
+                    max-width: 225px;
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 25px;
+                    margin-bottom: 0;
+                    max-width: 320px;
+                    color: var(--text-color);
+                }
+            }
+        }
+    }
+}

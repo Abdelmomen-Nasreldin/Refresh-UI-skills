@@ -22,6 +22,7 @@
 }
 
 .welcome .container p {
+  color: var(--text-color);
   max-width: 700px;
 }
 
